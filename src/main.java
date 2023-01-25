@@ -44,6 +44,13 @@ public class Main {
         }
     }
 
+    public static void eachElement() {
+        String[] sources = {"github", "something", "ok"};
+        for (String i : sources) {
+            System.out.println(i);
+        }
+    }
+
     public static void array() {}
 
 }
