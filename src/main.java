@@ -10,6 +10,7 @@ public class Main {
         doMath();
         getRandomNumber(30);
         compareInteger(13, 2);
+        array();
      //   whileFun(500);
     	System.out.println(name + number + deci + letter + trueFalse);
         System.out.println("Hello World");
@@ -51,6 +52,12 @@ public class Main {
         }
     }
 
-    public static void array() {}
+    public static void array() {
+        String[] socialMedias = {"twitter", "instagram", "snapchat"};
+        // for loop
+        for (int i = 0; i < socialMedias.length; i++) {
+            System.out.println(socialMedias[i]);
+        }
+    }
 
 }
