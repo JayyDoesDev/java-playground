@@ -1,12 +1,13 @@
 
 public class Main {
-    // w
+    public static final String x = null;
+
     public static void main(String[] args) {
     	String name = "John";
         int number = 1;
         float deci = 19.99f;
         char letter = 'B';
-        boolean trueFalse = true; 
+        boolean trueFalse = true;
         doMath();
         getRandomNumber(30);
         compareInteger(13, 2);
@@ -59,5 +60,4 @@ public class Main {
             System.out.println(socialMedias[i]);
         }
     }
-
 }
