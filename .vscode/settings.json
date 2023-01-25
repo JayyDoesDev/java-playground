@@ -12,5 +12,10 @@
       "path": "/path/to/jdk-19",
       "default": true
     },
-  ]
+  ],
+  "[java]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  }
 }
